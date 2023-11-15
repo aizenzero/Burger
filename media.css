@@ -1,0 +1,159 @@
+
+@media (min-width:721px) and (max-width:1480px) {
+
+
+    .first-container p{
+        margin-top: 4rem;
+        text-align: center;
+        width: 400px;
+    }
+
+    header ul li a:hover{
+        color: red;
+        
+    }
+    
+.second-container {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 4rem auto auto;
+    column-gap: 30px;
+    padding: 2rem;
+  
+
+    }
+
+    .second-container img{
+        margin-top: 1rem;
+    }
+
+    .second-container .zero{
+        grid-column: span 2;
+    }
+
+    .zero h1{
+        font-weight: bold;
+    }
+ 
+}
+
+
+@media (max-width:720px) {
+
+    .second-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 4rem auto auto auto auto;
+        column-gap: 30px;
+     
+      
+        }
+    
+        .second-container .zero{
+            grid-column: span 1;
+        }
+
+        .first-container p{
+            margin-top: 4rem;
+            text-align: center;
+        }
+        
+        .first-container h1{
+            margin-right: 100px;
+        }
+
+        .first-container ul li {
+            display: none;
+        }
+
+       #menu-icon{
+        display: block;
+       }
+
+       .dropdown-menu{
+        display: block;
+      
+       }
+
+
+       
+
+
+        .third-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 4rem auto auto ;
+            gap: 2rem;
+            padding: 1rem;
+            /* background-color: rgb(156, 167, 87); */
+            
+        }
+
+
+        .forth-container{
+            display: grid;
+            grid-template-columns:1fr;
+            grid-template-rows: auto;
+            text-align: center;
+            align-items: center;
+            background-color: aqua;
+        }
+
+
+
+
+        .delivery h1{
+            padding: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .contact{
+            font-size:1.2rem;
+            background-image: url(./image/16.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 65vh;
+        
+            
+        }
+
+      
+
+}
+
+
+
+
+
+
+
+@media (max-width:540px) {
+
+
+
+    .cutomer-testimonial {
+        grid-column: span 2;
+    }
+
+    .cutomer-testimonial h1{
+        font-size: 2rem;
+        text-align: center;
+ 
+    }
+
+    .customer > img{
+        width: 5rem;
+        height: 5rem;
+        padding: 2rem;
+    }
+
+    
+    .customer p{
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+    /* header h1{
+        margin-left: -100px;
+    } */
+
+}
